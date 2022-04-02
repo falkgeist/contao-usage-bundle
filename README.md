@@ -1,9 +1,10 @@
-hofff/contao-layoutusage
+falkgeist/contao-usage-bundle
 ========================
 
-In der Layoutansicht im Backend wird in Klammern die Anzahl der
-Direktzuweisungen angezeigt.
+Dieses Bundle ermöglicht es, im Backend direkt die Anzahl der Nutzung verschiedener Contao-Komponenten an entsprechenden Stellen zu sehen, sowie eine Übersicht dieser Stellen mit Direktlinks zu diesen Seiten.
 
-Mit einem Klick auf den Wert in Klammern, erhalten Sie detailierte
-Informationen wie oft und auf welchen Seiten das Layout verwendet wird und ein
-paar nützliche Direktlinks zu den Seiten.
+Es handelt sich dabei um eine Weiterentwicklung von hofff/contao-layoutusage, welches nur die Nutzung der Layouts anzeigt.
+
+Folgende Komponenten sind derzeit abgedeckt (Komponente -> genutzt von):
+
+- Layouts -> Seiten
