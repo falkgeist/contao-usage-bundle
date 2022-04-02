@@ -24,5 +24,12 @@
 		"psr-4": {
 			"Hofff\\Contao\\LayoutUsage\\": "src/"
 		}
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"contao-module": "system/modules/hofff_layoutusage"
+			}
+		}
 	}
 }
