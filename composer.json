@@ -1,52 +1,28 @@
 {
-	"name": "hofff/contao-layoutusage",
-	"description": "Shows on which pages the layouts are used",
-	"keywords": [ "layout", "page", "contao", "themes" ],
+	"name": "falkgeist/contao-usage-bundle",
+	"description": "Shows usage of several contao components",
+	"keywords": [ "usage", "layout", "page", "contao", "themes" ],
 	"type": "contao-module",
 	"license": "LGPL-3.0-or-later",
 	"authors": [
 		{
-			"name": "Nicky Hoff",
-			"email": "nick@hofff.com",
-			"homepage": "https://www.hofff.com/",
-			"role": "Maintainer"
-		},
-		{
-			"name": "David Molineus",
-			"email": "david@hofff.com",
-			"homepage": "https://www.hofff.com/",
-			"role": "Developer"
-		},
-		{
-			"name": "Oliver Hoff",
-			"email": "oliver@hofff.com",
-			"homepage": "https://www.hofff.com/",
+			"name": "Falk von Freigeist",
+			"email": "falk@falkvonfreigeist.com",
 			"role": "Developer"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/hofff/contao-layoutusage/issues",
-		"source": "https://github.com/hofff/contao-layoutusage"
+		"issues": "https://github.com/falkgeist/contao-usage-bundle/issues",
+		"source": "https://github.com/falkgeist/contao-usage-bundle"
 	},
 	"require": {
 		"php": "^7.1",
 		"contao/core-bundle": "^4.4",
 		"contao-community-alliance/composer-plugin": "^3.0"
 	},
-	"replace": {
-		"contao-legacy/backboneit_layoutusage": "self.version",
-		"backboneit/contao-layoutusage": "self.version"
-	},
 	"autoload": {
 		"psr-4": {
 			"Hofff\\Contao\\LayoutUsage\\": "src/"
-		}
-	},
-	"extra": {
-		"contao": {
-			"sources": {
-				"contao-module": "system/modules/hofff_layoutusage"
-			}
 		}
 	}
 }
