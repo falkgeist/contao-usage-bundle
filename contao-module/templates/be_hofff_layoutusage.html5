@@ -41,16 +41,15 @@
               <a href="contao/main.php?do=page&amp;pn=<?= $usage['id'] ?>"
                   title="<?= sprintf(
                     $GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_tree'],
-                    $usage['title'],
                     $usage['id']
                   ); ?>"
               >
-                <?= $usage['icon'] ?> <?= $usage['title'] ?> (ID <?= $usage['id'] ?>)
+                <?= $usage['icon'] ?> <?= $usage['title'] ?>
               </a>
             </td>
             <td class="tl_file tl_right_nowrap">
               <?= sprintf($GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_inherited'], $usage['inherited']) ?>
-              <?php $title = sprintf($GLOBALS['TL_LANG']['tl_page']['edit'][1], $usage['id']); ?>
+              <?php $title = sprintf($GLOBALS['TL_LANG']['tl_page']['edit'], $usage['id']); ?>
               <a href="contao/main.php?do=page&amp;act=edit&amp;rt=<?= REQUEST_TOKEN ?>&amp;id=<?= $usage['id'] ?>" title="<?= $title ?>">
                 <?= Image::getHtml('edit.gif', $title) ?>
               </a>
