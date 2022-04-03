@@ -1,6 +1,6 @@
 <?php
 
-namespace Hofff\Contao\LayoutUsage\Backend;
+namespace Falkgeist\ContaoUsageBundle\BackendModules;
 
 use Contao\BackendModule;
 use Contao\Controller;

@@ -1,6 +1,6 @@
 {
 	"name": "falkgeist/contao-usage-bundle",
-	"description": "Shows usage of several contao components",
+	"description": "Shows usage references for several contao components",
 	"keywords": [ "usage", "layout", "page", "contao", "themes" ],
 	"type": "contao-module",
 	"license": "LGPL-3.0-or-later",
@@ -22,14 +22,10 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Hofff\\Contao\\LayoutUsage\\": "src/"
+			"Falkgeist\\ContaoUsageBundle\\": "src/"
 		}
 	},
 	"extra": {
-		"contao": {
-			"sources": {
-				"contao-module": "system/modules/hofff_layoutusage"
-			}
-		}
+		"contao-manager-plugin": "Falkgeist\\ContaoUsageBundle\\ContaoManager\\Plugin"
 	}
 }

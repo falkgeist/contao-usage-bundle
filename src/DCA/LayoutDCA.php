@@ -1,6 +1,6 @@
 <?php
 
-namespace Hofff\Contao\LayoutUsage\DCA;
+namespace Falkgeist\ContaoUsageBundle\DCA;
 
 use Contao\Backend;
 use Contao\Database;
