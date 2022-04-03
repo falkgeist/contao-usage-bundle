@@ -25,7 +25,7 @@ class LayoutDCA extends Backend {
         return sprintf(
             '<a href="%s" title="%s"%s>(%s)</a> ',
             $this->addToUrl($href . '&id=' . $row['id']),
-            sprintf($GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage'][0], $row['name'], $row['id']),
+            sprintf($GLOBALS['TL_LANG']['tl_layout']['layoutusage'][0], $row['name'], $row['id']),
             $attributes,
             $usage
         );

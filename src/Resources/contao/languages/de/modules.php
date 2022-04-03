@@ -1,4 +1,4 @@
 <?php
 
-$GLOBALS['TL_LANG']['MOD']['hofff_layoutusage']
-	= 'hofff.com - Layoutnutzung';
+$GLOBALS['TL_LANG']['MOD']['layoutusage']
+	= ['Layoutnutzung', 'Zeige die Seiten, auf denen dieses Layout genutzt wird'];

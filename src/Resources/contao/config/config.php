@@ -1,4 +1,4 @@
 <?php
 
-$GLOBALS['BE_MOD']['design']['themes']['hofff_layoutusage']
+$GLOBALS['BE_MOD']['design']['themes']['layoutusage']
 	= array('Falkgeist\\ContaoUsageBundle\\BackendModules\\ModuleLayoutUsage', 'generateFromDC');

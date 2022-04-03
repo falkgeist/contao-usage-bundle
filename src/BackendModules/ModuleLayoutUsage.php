@@ -64,7 +64,7 @@ class ModuleLayoutUsage extends BackendModule {
 			return;
 		}
 
-		$this->strTemplate = 'be_hofff_layoutusage';
+		$this->strTemplate = 'be_layoutusage';
 
 		return parent::generate();
 	}

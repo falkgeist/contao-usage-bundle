@@ -10,7 +10,7 @@
 <div>
 
   <h2 class="sub_headline"><?= sprintf(
-    $GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_headline'],
+    $GLOBALS['TL_LANG']['tl_layout']['layoutusage_headline'],
     $this->layout['name'],
     $this->layout['id']
   ) ?></h2>
@@ -22,11 +22,11 @@
       <table cellspacing="0" cellpadding="0" summary="Table lists summary of records" class="tl_header_table">
         <tbody>
           <tr>
-            <td><span class="tl_label"><?php echo $GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_count']; ?></span></td>
+            <td><span class="tl_label"><?php echo $GLOBALS['TL_LANG']['tl_layout']['layoutusage_count']; ?></span></td>
             <td><?= $this->count; ?></td>
           </tr>
           <tr>
-            <td><span class="tl_label"><?php echo $GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_usages']; ?></span></td>
+            <td><span class="tl_label"><?php echo $GLOBALS['TL_LANG']['tl_layout']['layoutusage_usages']; ?></span></td>
             <td><?= count($this->usages); ?></td>
           </tr>
         </tbody>
@@ -40,7 +40,7 @@
             <td class="tl_file">
               <a href="contao/main.php?do=page&amp;pn=<?= $usage['id'] ?>"
                   title="<?= sprintf(
-                    $GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_tree'],
+                    $GLOBALS['TL_LANG']['tl_layout']['layoutusage_tree'],
                     $usage['id']
                   ); ?>"
               >
@@ -48,7 +48,7 @@
               </a>
             </td>
             <td class="tl_file tl_right_nowrap">
-              <?= sprintf($GLOBALS['TL_LANG']['tl_layout']['hofff_layoutusage_inherited'], $usage['inherited']) ?>
+              <?= sprintf($GLOBALS['TL_LANG']['tl_layout']['layoutusage_inherited'], $usage['inherited']) ?>
               <?php $title = sprintf($GLOBALS['TL_LANG']['tl_page']['edit'], $usage['id']); ?>
               <a href="contao/main.php?do=page&amp;act=edit&amp;rt=<?= REQUEST_TOKEN ?>&amp;id=<?= $usage['id'] ?>" title="<?= $title ?>">
                 <?= Image::getHtml('edit.gif', $title) ?>
