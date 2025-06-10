@@ -1,5 +1,7 @@
-falkgeist/contao-usage-bundle
+falkgeist/contao-usage-bundle [WIP]
 ========================
+
+(**Hinweis:** Dieses Bundle befindet sich noch in der Entwicklung und ist derzeit nicht final getestet. Die Nutzung erfolgt daher auf eigene Verantwortung – es kann zu unerwartetem Verhalten oder Änderungen in zukünftigen Versionen kommen.)
 
 Dieses Bundle ermöglicht es, im Backend direkt die Anzahl der Nutzung verschiedener Contao-Komponenten an entsprechenden Stellen zu sehen, sowie eine Übersicht dieser Stellen mit Direktlinks zu diesen Seiten.
 
